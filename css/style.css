@@ -621,8 +621,42 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 .popular-quests__image {
     width: 100%;
+    margin-bottom: 15px;
+}
+.popular-quests__name {
+    font-size: 18px;
+    color: #0178C0;
+    margin-left: 15px;
+}
+.popular-quests__text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #08151D;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.popular-quests__type {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0178C0;
+    margin-left: 15px;
+}
+.popular-quests__address,
+.popular-quests__time {
+    font-size: 13px;
+    line-height: 18px;
+    color: #8F6B40;
+    margin-left: 15px;
+}
+.popular-quests__address::before {
+    content: url(../img/pages/place.png);
+    margin-right: 15px;
+}
+.popular-quests__time::before {
+    content: url(../img/pages/time.png);
+    margin-right: 15px;
 }
